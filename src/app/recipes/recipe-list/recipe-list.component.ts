@@ -8,6 +8,7 @@ import { Recipe } from '../recipe'
 })
 export class RecipeListComponent implements OnInit {
 	recipes: Recipe[] = [];
+	recipe = new Recipe('Dummy','Dummy', 'http://greatist.com/sites/default/files/SlowCooker-Pork-Ramen_0.jpg')
   constructor() { }
 
   ngOnInit() {
